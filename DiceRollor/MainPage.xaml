@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DiceRollor"
+             x:Class="DiceRollor.MainPage">
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="2*" />
+      <RowDefinition Height="1*" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+
+    <Entry Keyboard="Numeric" x:Name="tbMultiLine">The user may not modify the contents of this TextBox. </Entry>
+    <Button x:Name="button1" Clicked="OnButtonClicked_button1" Text ="Roll" Grid.Row="2" ></Button>
+  </Grid>
+
+</ContentPage>
